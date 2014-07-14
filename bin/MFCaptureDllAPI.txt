@@ -1,0 +1,46 @@
+Microsoft (R) COFF/PE Dumper Version 12.00.30501.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file MFCapture.dll
+
+File Type: DLL
+
+  Section contains the following exports for MFCapture.dll
+
+    00000000 characteristics
+    53C3B96A time date stamp Mon Jul 14 07:05:14 2014
+        0.00 version
+           1 ordinal base
+          18 number of functions
+          18 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000D440 MFCaptureAddDevice = MFCaptureAddDevice
+          2    1 0000D3E0 MFCaptureCreateCapture = MFCaptureCreateCapture
+          3    2 0000D840 MFCaptureEndCapture = MFCaptureEndCapture
+          4    3 0000D350 MFCaptureHRToString = MFCaptureHRToString
+          5    4 0000D310 MFCaptureMFShutdown = MFCaptureMFShutdown
+          6    5 0000D2C0 MFCaptureMFStartup = MFCaptureMFStartup
+          7    6 0000D9D0 MFCaptureNotifyMessage = MFCaptureNotifyMessage
+          8    7 0000DB00 MFCaptureNotifyMessageRemove = MFCaptureNotifyMessageRemove
+          9    8 0000D8D0 MFCaptureSetShutdownMessage = MFCaptureSetShutdownMessage
+         10    9 0000D700 MFCaptureStartPreview = MFCaptureStartPreview
+         11    A 0000D7A0 MFCaptureStartRecord = MFCaptureStartRecord
+         12    B 0000DDA0 MFDeviceEnumerateByType = MFDeviceEnumerateByType
+         13    C 0000E060 MFDeviceGetActivate = MFDeviceGetActivate
+         14    D 0000E100 MFDeviceGetAudioGlobalID = MFDeviceGetAudioGlobalID
+         15    E 0000DEE0 MFDeviceGetName = MFDeviceGetName
+         16    F 0000DF60 MFDeviceGetType = MFDeviceGetType
+         17   10 0000DFE0 MFDeviceGetUniqueID = MFDeviceGetUniqueID
+         18   11 0000DCF0 MFDeviceRegisterNotification = MFDeviceRegisterNotification
+
+  Summary
+
+        A000 .data
+        5000 .pdata
+       19000 .rdata
+        3000 .reloc
+       1A000 .rsrc
+       41000 .text
